@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
         fontFamily: 'Poppins',
       ),
       debugShowCheckedModeBanner: false,
-      home: DashboardScreen(),
+      home: OnboardingScreen(),
       getPages: [
         GetPage(name: '/', page: () => OnboardingScreen()),
         GetPage(name: '/start', page: () => StartScreen()),
